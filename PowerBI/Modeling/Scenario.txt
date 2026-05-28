@@ -1,0 +1,23 @@
+Open the Lab 2 - Starting.pbix file.
+In the navigation pane on the left, click Model.
+Notice that there is a many to one relationship from the ProductID column on the Sales table to the ProductID column on the Products table.
+
+Notice that there is a many to one relationship from the ManufacturerID column on the Products table to the ManufacturerID column on the Manufacturers table.
+Drag the Date column on the Sales table to the Date column on the Date table.
+Now you want to create a relationship between the Sales table and the Locations table. First, you merge the Country and Zip columns in both Sales and Locations table as a new column, CountryZip. Then, you create a relationship on the CountryZip column for both tables.
+
+In the navigation pane on the left, click Data.
+In the navigation pane on the right, click Location.
+On the Modeling ribbon, click New Column.
+
+In the formula bar for the new column, type
+CountryZip = Location[Country] & ", " & Location[Zip], and press Enter.
+In the navigation pane on the right, click Sales.
+
+On the Modeling ribbon, click New Column.
+In the formula bar for the new column, type
+CountryZip = Sales[Country Name] & ", " & Sales[Zip], and press Enter.
+
+In the navigation pane on the left, click Model.
+Drag the CountryZip column on the Sales table to the CountryZip column on the Locations table.
+Click Save, to save the Power BI file.
