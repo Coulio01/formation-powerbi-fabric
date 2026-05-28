@@ -1,0 +1,22 @@
+Import the data from the file folder by clicking Get Data, clicking Excel and clicking Connect.
+Select folder you have downloaded and click Open.
+Select Sheet1 and click Edit.
+
+In QUERY SETTINGS change Name to Country Population.
+On the ribbon, click Remove Rows, click Remove Top Rows, in Number of rows, type 3, and click OK.
+On the ribbon, click Use First Row as Headers.
+
+Select the 1999 column, hold Shift and select the 2014 column.
+On the Transform ribbon, click Unpivot Columns.
+Right-click the Attribute column header and click Rename.
+
+Type Year and press Enter.
+Right-click the Value column header and click Rename.
+Type Population and press Enter.
+
+Click the drop-down button on the Year header, unselect 1999, and click OK.
+Click the Year header, on the Transform ribbon click Data Type, and click Whole Number.
+Cick the Population header, on the Transform ribbon click Data Type, and click Whole Number.
+
+Click the Home ribbon.
+Click Close & Apply.
