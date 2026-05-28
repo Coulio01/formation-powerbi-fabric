@@ -1,0 +1,28 @@
+1/ Click Start.
+2/Type Power BI Desktop. And launch it
+3/Click Get data.
+4/Click Access database, and click Connect.
+
+5/Navigate to the folder you have downloaded and click PowerBI.accdb and click Open.
+6/Select bi_date, bi_geo, bi_manufacturer, bi_product, and bi_salesFact and click Edit.
+7/In Queries, select bi_salesFact.
+
+8/Select the Date column.
+9/Click the Transform ribbon.
+10/Click Date Filters and click After.
+
+11/In the first Enter or select a value field, type 12/31/1999 if you are using DD/MM/YYYY dates and 31/12/1999 if you are using DD/MM/YYYY dates and click OK.
+12/In Queries, select bi_Date.
+13/Select the Date column.
+
+14/Click the Transform ribbon.
+15/In the Any Column group, select Data Type and select Date.
+16/Click the drop-down button at the top of the Date column.
+
+17/Click Date Filters and click After.
+18/In the first Enter or select a value field, type 12/31/1999 if you are using DD/MM/YYYY dates and 31/12/1999 if you are using DD/MM/YYYY dates and click OK.
+19/Select the Date column.
+
+20/Click the Transform ribbon.
+21/Click Date Filters and click After.
+22/In the first Enter or select a value field, type 12/31/1999 if you are using DD/MM/YYYY dates and 31/12/1999 if you are using DD/MM/YYYY dates and click OK.
